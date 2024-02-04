@@ -1,0 +1,118 @@
+.sport-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+
+
+.record {
+  position: relative;
+  border-radius: 4px;
+  width: 320px;
+  height: 250px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  transition: box-shadow 300ms;
+  margin: 30px 20px;
+}
+.record-arrow {
+  position: absolute;
+  padding: 3%;
+  transform: translateX(75%);
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+
+.record-arrow img {
+  width: 0%;
+  height: 8%;
+}
+
+.record:hover .record-arrow {
+  transform: translateX(85%);
+  opacity: 1;
+}
+
+.record-display {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-size: 220px 180px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.record:hover .record-display {
+  height: 30%;
+}
+
+.record-desc {
+  margin: 4em 1em;
+  opacity: 0;
+  transition: opacity 400ms ease-in-out 190ms;
+}
+
+#record1 {
+  transition: height 700ms cubic-bezier(0.54, 0.21, 0.18, 1.35);
+}
+
+.record:hover .record-desc {
+  opacity: 1;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.special{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 8px;
+}
+
+.btn {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 6px 5px;
+  cursor: pointer;
+
+}
+
+.btn:hover{
+  background-color: orange;
+}
+
+.record-display img{
+  width: 100px;
+
+}
+
+.record-display h1{
+  color: #454545;
+}
+
+.record-desc h2{
+  color: #454545;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+.res{
+  /* flex-direction: ; */
+  justify-content: flex-start;
+}

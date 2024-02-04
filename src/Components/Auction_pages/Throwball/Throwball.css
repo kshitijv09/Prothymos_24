@@ -1,0 +1,29 @@
+.outer{
+    background-color:aliceblue;
+    /* height: 400px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.details{
+    background-color: rgb(76, 166, 166);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    /* padding-left: 100px; */
+}
+
+.players{
+    width:50%;
+    text-align: center;
+
+}
+
+.prices{
+    width:50%;
+    text-align: center;
+}

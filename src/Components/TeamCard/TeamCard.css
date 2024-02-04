@@ -1,0 +1,89 @@
+.team-card-container{
+    background-color: #fff;
+    color: #454545;
+    width: 350px;
+    height: 220px;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+.team-top-container{
+  background-color: #c8f2f2;
+  height: 110px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  display: flex;
+  position: relative;
+}
+
+.team-top-container h1{
+    color: #454545;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+    padding-right: 15px;
+    margin-top: auto;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.team-top-container img{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 100px;
+}
+
+.team-bottom-text-container{
+    color: #454545;
+    text-align: right;
+    font-weight: 600;
+}
+
+.team-bottom-text-container img{
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+.team-bottom-container{
+    padding-top: 5px;
+    padding-right: 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.no-logo-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 500px;
+    background-color: #C9EEFF;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: #454545;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button-know-more{
+    border-radius: 4px;
+    padding: 8px 10px;
+    border: none;
+    margin: 10px 0 auto 10px;
+    margin-left: auto !important;
+    cursor: pointer;
+    background-color: #c8f2f2;
+    color: #454545;
+    font-weight: 600;
+}

@@ -1,0 +1,81 @@
+.schedule-container {
+    margin: 0 auto;
+    color: aliceblue;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+  
+  .schedule-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    background-color: #c8f2f2;
+    color: #454545;
+    padding: 20px;
+    border-radius: 5px;
+
+  }
+  
+  .schedule-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+  
+  .schedule-table th,
+  .schedule-table td {
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .schedule-table th {
+    font-weight: bold;
+  }
+  
+  .schedule-table .team1 {
+    font-weight: bold;
+  }
+  
+  .schedule-table .team2 {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .schedule-table th,
+    .schedule-table td {
+      font-size: 0.8rem;
+      padding: 0.2rem;
+    }
+  
+    .schedule-table th {
+      font-size: 1rem;
+    }
+  
+    .schedule-table .team1,
+    .schedule-table .team2 {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .schedule-table th,
+    .schedule-table td {
+      font-size: 0.6rem;
+      padding: 0.1rem;
+    }
+  
+    .schedule-table th {
+      font-size: 0.8rem;
+    }
+  
+    .schedule-table .team1,
+    .schedule-table .team2 {
+      font-size: 0.6rem;
+    }
+  
+    .schedule-heading {
+      font-size: 1rem;
+    }
+}

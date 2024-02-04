@@ -1,0 +1,49 @@
+.modalContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.btn{
+    display: block;
+}
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 999;
+  }
+  
+  .modal button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 500px;
+    border: none;
+    background-color: #fff;
+    border: 2px solid #57C5B6;
+    color: #57C5B6;
+    cursor: pointer;
+  }
+
+  .main-container-table-auction{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }

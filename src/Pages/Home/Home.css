@@ -1,0 +1,7 @@
+.hr-line{
+    border: 15px dotted rgba(255,255,255,0.8);
+    border-top: none;
+    width: 5%;
+    margin: 150px auto;
+    scroll-behavior: smooth !important;
+}
