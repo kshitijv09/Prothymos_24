@@ -1,6 +1,7 @@
 import React from "react";
 
 const Table = ({ team }) => {
+  {console.log("Hi ",team)}
   return (
     <section className="team-table">
       <div className="table-header table-body">

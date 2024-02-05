@@ -1,5 +1,5 @@
 import LELLogo from "../../Assets/lasan-e-lanhga-logo.png";
-export const cricketTeams = [
+export const cricket_teams = [
   {
     id: 1,
     title: "Lasan-e-lehanga",

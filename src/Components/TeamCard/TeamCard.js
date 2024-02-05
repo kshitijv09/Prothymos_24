@@ -10,6 +10,7 @@ const TeamCard = ({ ele, title, img, cap, vCap }) => {
 
   const handleClick = () => {
     setSelectedAuctionTeam(ele);
+    console.log(ele," was clicked")
     setShowAuctionModal(true);
   };
   return (

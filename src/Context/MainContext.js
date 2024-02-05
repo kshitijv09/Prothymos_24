@@ -4,6 +4,7 @@ export const UserContext = createContext();
 export const ContextProvider = ({ children }) => {
   const [showAuctionModal, setShowAuctionModal] = useState(false);
   const [selectedAuctionTeam, setSelectedAuctionTeam] = useState(null);
+  const [selectedSport,setSelectedSport]=useState(null)
   return (
     <UserContext.Provider
       value={{
@@ -11,6 +12,7 @@ export const ContextProvider = ({ children }) => {
         setShowAuctionModal,
         selectedAuctionTeam,
         setSelectedAuctionTeam,
+        selectedSport,setSelectedSport
       }}
     >
       {children}

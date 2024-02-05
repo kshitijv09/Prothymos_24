@@ -6,20 +6,20 @@ import Table from "./Table";
 import Navbar from "../../../Components/Nav/Nav";
 import Footer from "../../../Sections/Footer/Footer";
 import TeamCard from "../../../Components/TeamCard/TeamCard";
-import { cricketTeams } from "../../../Data/Cricket/Cricket_Teams";
+import { cricket_teams } from "../../../Data/Cricket/Cricket_Teams";
 import PrimaryHeading from "../../../Components/PrimaryHeading/PrimaryHeading";
 import { football_teams } from "../../../Data/Football/FootBall_teams";
 export default function Cricket() {
   const selectPage = () => {
-    if (window.location.pathname === "/auction/football") {
+    if (window.location.pathname === "/auction/Football") {
       return {
         title: "Football Team",
         data: football_teams,
       };
-    } else if (window.location.pathname === "/auction/cricket") {
+    } else if (window.location.pathname === "/auction/Cricket") {
       return {
         title: "Cricket Team",
-        data: cricketTeams,
+        data: cricket_teams,
       };
     }
   };
