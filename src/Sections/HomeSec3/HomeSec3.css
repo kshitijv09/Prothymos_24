@@ -16,10 +16,10 @@ width: 85%;
 }
 
 .sec-3-img{
-    border-top-right-radius: 40px !important;
-    border-bottom-right-radius: 40px;
-    border-top-left-radius: 0px !important;
-    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 17% !important;
+    border-top-left-radius: 17% !important;
+    border-bottom-left-radius: 0 !important;
 }
 
 @media (max-width:500px) {
