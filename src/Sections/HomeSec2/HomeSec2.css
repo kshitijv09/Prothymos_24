@@ -31,8 +31,9 @@
 .home-sec-2-main-container img{
     width: 450px;
     height: 270px;
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
+    border: 7px solid white;
+    border-top-right-radius: 17%;
+    border-bottom-left-radius: 17%;
 }
 
 @media (max-width:500px) {
