@@ -1,0 +1,44 @@
+.council-team-main-container{
+    width: 100%;
+    border-radius: 6px;
+    padding: 20px 0;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+ .council-team-heading{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+ }
+
+ .council-card-main-container-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+
+ @media (max-width:500px) {
+    .council-team-main-container{
+        border-radius: 6px;
+        padding: 20px 0;
+    
+    }
+    
+     .council-team-heading{
+        font-size: 3rem;
+     }
+    
+     .council-card-main-container-2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+     }
+ }
