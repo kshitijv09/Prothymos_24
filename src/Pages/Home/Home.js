@@ -4,6 +4,7 @@ import Landing from "../../Sections/Landing/Landing";
 import HomeSec2 from "../../Sections/HomeSec2/HomeSec2";
 import HomeSec3 from "../../Sections/HomeSec3/HomeSec3";
 import NoteSec from "../../Sections/NoteSec/NoteSec";
+import Council from "../../Sections/council/Council"
 import TechTeam from "../../Sections/TechTeam/TechTeam";
 import Footer from "../../Sections/Footer/Footer";
 import Nav from "../../Components/Nav/Nav";
@@ -21,6 +22,8 @@ const Home = () => {
       <HomeSec2 SecImg="https://i.pinimg.com/564x/2e/44/59/2e44590648c3f3b6446a45fe5875e291.jpg"/>
       <hr className="hr-line" />
       <NoteSec />
+      <hr className="hr-line" id="sport-council"/>
+      <Council/>
       <hr className="hr-line" id="tech-team" />
       <TechTeam />
       <hr className="hr-line" />
