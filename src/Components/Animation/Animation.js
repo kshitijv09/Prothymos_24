@@ -4,7 +4,7 @@ import "./Animation.css";
 const Animation = () => {
   return (
     <div className="neon-wrapper">
-      <div id="neon">PROTHYMOS '23</div>
+      <div id="neon">PROTHYMOS '24</div>
     </div>
   );
 };
