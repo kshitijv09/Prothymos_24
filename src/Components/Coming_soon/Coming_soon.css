@@ -1,0 +1,24 @@
+*, body, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.modalContainer {
+    display: none;
+}
+.soon-main-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.soon-main-container img {
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
