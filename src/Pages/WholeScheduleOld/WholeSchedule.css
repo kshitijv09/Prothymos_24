@@ -1,16 +1,14 @@
 .table-schedule {
     display: flex;
-    margin-bottom: 60px;
-    justify-content: space-around;
+    margin-bottom: 100px;
+    justify-content: center;
 }
 
 .column-schedule {
-  width: 30%;
-  border-radius: 12px;
-  border: 2px solid rgb(255, 255, 255, 0.50);  
-  padding: 35px;  
-  flex-direction: column;
-  text-align: center;
+    border: 2px solid #c8f2f2;
+    padding: 6px;
+    margin: 2px;
+    width: 33.33%;
 }
 
 .column-schedule h1 {
@@ -19,21 +17,16 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #c8f2f2;
-    padding-bottom: 10px;
     border-bottom: 1px solid #c8f2f2;
     margin-bottom: 10px;
-    align-items: center;
-    justify-content: center;
+    margin-left: 15px;
 }
 
 .column-schedule p {
-    display: flex;
     font-weight: 500;
     font-size: 0.9rem;
-    height: 60px;
+    margin: 15px;
     text-transform: capitalize;
-    justify-content: center;
-    align-items: center;
 }
 
 .second-heading {
@@ -47,34 +40,30 @@
 
 @media screen and (max-width: 626px) {
     .column-schedule {
-      padding: 15px 25px;
-      border-radius: 10px;
+      width: 100%;
+      padding: 10px 0;
       text-align: center;
-      border: 1px solid rgba(255, 255, 255, 0.25);
-    }
-
-    .second-heading {
-      font-size: 2rem;
-    }
-
-    .column-schedule h1 {
-      font-size: 0.9rem;
     }
 
     .column-schedule p {
         font-weight: 300;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
+        margin: 15px;
+        text-transform: capitalize;
     }
   }
 
   @media screen and (max-width: 459px) {
     .column-schedule {
-      padding: 12px 12px;
+      width: 100%;
+      padding: 8px 0;
       text-align: center;
     }
 
     .column-schedule p {
         font-weight: 200;
-        font-size: 0.75rem;
+        font-size: 0.4rem;
+        margin: 12px;
+        text-transform: capitalize;
     }
   }
