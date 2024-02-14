@@ -1,17 +1,17 @@
 import React from "react";
 import "./HomeSec2.css";
 
-const HomeSec2 = ({SecImg}) => {
+const HomeSec2 = () => {
   return (
     <div className="home-sec-2-main-container">
       <div className="home-sec-2-text-container">
-        <h1>Experience the thrill of sports</h1>
+        <h1>Leave Everything on the Field!</h1>
         <p>
         It's not whether you get knocked down; it's whether you get up.
         </p>
       </div>
       <img
-      src={SecImg}
+      src="https://i.pinimg.com/564x/22/87/33/228733e4335c731eeac3a09990040288.jpg"
         alt="sports"
       />
     </div>
