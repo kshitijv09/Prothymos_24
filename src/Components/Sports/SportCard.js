@@ -32,16 +32,16 @@ const SportCard = () => {
       <div className="sport-container">
         {SportData.map((sport, index) => {
           return (
-            <section class="record">
+            <section className="record">
               {/* <div class="record-arrow"></div> */}
               <div
                 id="record1"
-                class="record-display"
+                className="record-display"
                 style={{ backgroundImage: `url(${sport.img})` }}
               >
 
               </div>
-              <div class="record-desc">
+              <div className="record-desc">
                 <h2>{sport.value}</h2>
         
                 <div  key={index} 
