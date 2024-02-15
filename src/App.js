@@ -7,6 +7,7 @@ import VolleyBallSchedulePage from "./Components/Schedules/VolleyBall/VolleyBall
 import Auction from "./Components/Auction_pages/Auction";
 import WholeSchedule from "./Pages/WholeSchedule/WholeSchedule";
 import Teams from "./Pages/Auction_pages/SportTeams/Teams";
+import Schedule from "./Pages/Schedule/Schedule";
 function App() {
   return (
     <div className="App">
@@ -16,11 +17,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/sports" element={<SportCard />} />
           <Route path="/schedule" element={<WholeSchedule />} />
-          <Route path="/schedule/cricket" element={<CricketSchedulePage />} />
-          <Route
+         {/*  <Route path="/schedule/cricket" element={<CricketSchedulePage />} /> */}
+          <Route path="/schedule/:sport" element={<Schedule/>}/>
+          {/* <Route
             path="/schedule/Volleyball"
             element={<VolleyBallSchedulePage />}
-          />
+          /> */}
           <Route path="/auction/:sport" element={<Teams />} />
          {/*  <Route path="/auction/cricket" element={<CricketAuctionPage />} />
           <Route path="/auction/football" element={<CricketAuctionPage />} />

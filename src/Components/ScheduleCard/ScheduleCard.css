@@ -1,0 +1,61 @@
+.schedule-container{
+    background-color: #fff;
+    color: #454545;
+    width: 350px;
+    height: 220px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.top-section{ 
+    background-color: #c8f2f2;
+    height: 110px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    /* border:lime solid 1px; */
+}
+.top-section div{
+    color: #454545;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 100%;
+    /* text-align: right; */
+    padding: 10px;
+    padding-right: 15px;
+   /*  margin-top: auto; */
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.bottom-section{
+    height:110px;
+    padding-top: 5px;
+   /*  padding-right: 15px; */
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+   
+
+}
+.bottom-section div{
+    color: #454545;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+    padding-right: 15px;
+   /*  margin-top: auto; */
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+   /*  border:lime solid 1px; */
+}
