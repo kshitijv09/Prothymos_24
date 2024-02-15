@@ -1,8 +1,11 @@
+import Team1 from "../../Assets/Team1.jpg"
+import Team3 from "../../Assets/Team3.jpg"
+import Team6 from "../../Assets/Team6.png"
 export const football_teams = [
   {
     id: 1,
     title: "Team 1",
-    img: null,
+    img: Team1,
     cap: "Harshit",
     vCap: "Aswajith",
     num: 0,
@@ -18,7 +21,7 @@ export const football_teams = [
   {
     id: 3,
     title: "Team 3",
-    img: null,
+    img: Team3,
     cap: "Rishi",
     vCap: "Satwik",
     num: 2,
@@ -42,7 +45,7 @@ export const football_teams = [
   {
     id: 6,
     title: "Team 6",
-    img: null,
+    img: Team6,
     cap: "Venh Arya",
     vCap: "Tanish",
     num: 2,
