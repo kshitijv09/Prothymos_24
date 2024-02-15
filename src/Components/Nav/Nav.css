@@ -38,7 +38,7 @@
   /*  border: red solid 2px; */
   font-family: "Roboto Condensed", sans-serif;
   padding-top: 20px;
-  margin: /* 1.8em */ 0px 3em 0 0.5em;
+  /* margin: 1.8em 0px 3em 0 0.5em; */
 
   display: flex;
   position: fixed;
@@ -53,6 +53,7 @@
 
 .logo-container {
   font-size: 1.5rem;
+  padding: 5px 0px 0px 12px;
   /* margin-right: 0.5em; */
   /* margin: 0.5rem; */
   margin-top: 0.3em;
@@ -116,8 +117,14 @@
   .navbar {
     flex-direction: column;
     align-items: flex-start;
-    padding: 10px 0;
+    /* padding: 10px 0; */
+    padding: 0px;
     background-color: rgba(0, 0, 0, 0.916);
+  }
+
+  .prothymos-logo {
+    width: 90px;
+    padding-top: 5px;
   }
 
   .toggle-button {

@@ -19,6 +19,12 @@ const SportCard = () => {
     //   }
     Navigate(`/schedule/${val}`);
   };
+  const handleResult = (val) => {
+    //   if(key==1){
+    // Navigate('/schedule/cricket');
+    //   }
+    Navigate(`/result/${val}`);
+  };
   const handleAuction = (val) => {
     //   if(key==1){
     // Navigate('/schedule/cricket');
@@ -70,7 +76,9 @@ const SportCard = () => {
                   </button>
                   {/* </div> */}
                   {/* <div className="res-btn"> */}
-                  <button className="res btn">Results</button>
+                  <button className="res btn" onClick={() => {
+                      handleResult(sport.value);
+                    }}>Results</button>
                   {/* </div> */}
                 </div>
               </div>
