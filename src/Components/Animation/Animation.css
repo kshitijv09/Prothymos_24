@@ -19,7 +19,7 @@
 
 /*Neon line light*/
 #neon::after{
-  content: "PROTHYMOS '23";
+  content: "PROTHYMOS '24";
   color: transparent;
   position: absolute;
   left: 0;
@@ -67,7 +67,7 @@
       
       /*Neon line light*/
       #neon::after{
-        content: "PROTHYMOS '23";
+        content: "PROTHYMOS '24";
         color: transparent;
         position: absolute;
         left: 0;

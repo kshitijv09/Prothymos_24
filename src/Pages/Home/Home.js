@@ -19,9 +19,9 @@ const Home = () => {
       <HomeSec1/>
       <hr className="hr-line" />
       <HomeSec3/>
-      <hr className="hr-line" id="director-note" />
+      <hr className="hr-line"  />
       <HomeSec2/>
-      <hr className="hr-line" />
+      <hr className="hr-line" id="director-note" />
       <NoteSec />
       <hr className="hr-line" id="sport-council"/>
       <Council/>
