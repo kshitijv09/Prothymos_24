@@ -1,5 +1,7 @@
 .main{
     display: flex;
+    flex-wrap: wrap;
+    width:100%;
 }
 .tech-team-card--container{
     background-color: rgba(255,255,255,1);
@@ -38,4 +40,11 @@
     justify-content: center;
     flex-direction: column;
     padding: 3px 0;
+ }
+
+ @media (max-width:500px){
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
  }

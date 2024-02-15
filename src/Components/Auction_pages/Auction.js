@@ -1,7 +1,7 @@
 import React, { useState,useEffect,useContext } from "react";
 import "./Auction.css";
 import { UserContext } from "../../Context/MainContext";
-import Table from "../../Pages/Auction_pages/Cricket/Table";
+import Table from "../../Pages/Auction_pages/SportTeams/Table";
 import football_data from "../../Data/Football/Football_data"
 import cricket_data from "../../Data/Cricket/Cricket_data";
 import volleyball_data from "../../Data/Volleyball/Volleyball_data"

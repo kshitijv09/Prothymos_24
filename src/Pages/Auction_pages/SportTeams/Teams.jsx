@@ -1,6 +1,5 @@
 import React, { useEffect, useState,useContext } from "react";
 import "./Teams.css";
-import Table from "./Table";
 import { UserContext } from "../../../Context/MainContext";
 import Navbar from "../../../Components/Nav/Nav";
 import Footer from "../../../Sections/Footer/Footer";

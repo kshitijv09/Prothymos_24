@@ -9,10 +9,8 @@ const WholeSchedule = () => {
     <>
       <Navbar />
       <div style={{ paddingTop: 90 }}>
-        <PrimaryHeading title="Schedule"/>
-        <div style={{display: "flex", justifyContent: "center", alignItems: "center", padding: "1%"}}>
+        <PrimaryHeading title="Schedule" />
         <h1 className="second-heading">Day 1</h1>
-        </div>
         <div className="table-schedule">
           <div className="column-schedule">
             <h1>Time</h1>
@@ -67,9 +65,7 @@ const WholeSchedule = () => {
           </div>
         </div>
 
-        <div style={{display: "flex", justifyContent: "center", alignItems: "center", padding: "1%"}}>
         <h1 className="second-heading">Day 2</h1>
-        </div>
         <div className="table-schedule">
           <div className="column-schedule">
             <h1>Time</h1>
@@ -150,9 +146,7 @@ const WholeSchedule = () => {
 
 
 
-        <div style={{display: "flex", justifyContent: "center", alignItems: "center", padding: "1%"}}>
         <h1 className="second-heading">Day 3</h1>
-        </div>
         <div className="table-schedule">
           <div className="column-schedule">
             <h1>Time</h1>
