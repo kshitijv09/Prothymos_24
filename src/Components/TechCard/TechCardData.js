@@ -1,21 +1,28 @@
-import Anish from "../../Assets/anish.jpeg"
+import core1 from "../../Assets/core1.png"
+import core2 from "../../Assets/core2.png"
+import Kshitij from "../../Assets/Kshitij.jpg"
+import Lakshendra from "../../Assets/Lakshendra.jpg"
 
 const TechCardData = [
     {
-        name: "Mayank Sonker",
-        img: "",
-    },
-    {
-        name: "Anish Kirodiwal",
-        img: Anish,
-    },
-    {
-        name: "Gautam Dadhich",
-        img: "0.2cr",
-    },
-    {
         name: "Kshitij Verma",
-        img: "0.2cr",
+        img: Kshitij,
+        role: "Team Lead",
+    },
+    {
+        name: "Tanya & Ritul",
+        img: core1,
+        role: "Core Team",
+    },
+    {
+        name: "Lakshendra Sejwani",
+        img: Lakshendra,
+        role: "Core Team",
+    },
+    {
+        name: "Prakriti & Shashi",
+        img: core2,
+        role: "Core Team",
     },
    
 ]
