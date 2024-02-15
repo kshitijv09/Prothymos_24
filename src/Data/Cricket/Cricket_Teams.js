@@ -1,9 +1,10 @@
-import LELLogo from "../../Assets/lasan-e-lanhga-logo.png";
+// import LELLogo from "../../Assets/lasan-e-lanhga-logo.png";
+import SpeedBreaker from "../../Assets/SpeedBreaker.jpg"
 export const cricket_teams = [
   {
     id: 1,
     title: "Systumm",
-    img: LELLogo,
+    img: null,
     cap: "Aakash Yadav",
     vCap: "Jasvinder",
     num: 2,
@@ -51,7 +52,7 @@ export const cricket_teams = [
   {
     id: 7,
     title: "Speed Breaker",
-    img: null,
+    img: SpeedBreaker,
     cap: "Krishna",
     vCap: "Uttam",
     num: 3,
