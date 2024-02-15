@@ -4,13 +4,15 @@ import Footer from '../../Sections/Footer/Footer';
 import ScheduleCard from '../../Components/ScheduleCard/ScheduleCard';
 import { useParams } from 'react-router-dom';
 import cricket_schedule from '../../Data/Schedule/CricketSchedule';
+import volleyball_schedule from '../../Data/Schedule/VolleyballSchedule';
+import football_schedule from '../../Data/Schedule/FootballSchedule';
 import ComingSoonComp from '../../Components/Coming_soon/Coming_soon';
 import './Schedule.css';
 
 export default function Schedule() {
     const [sportSchedule, setSportSchedule] = useState([]);
     const { sport } = useParams();
-    const [isLoading, setIsLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(true);   
 
     useEffect(() => {
         // Fetch data based on the sport name
@@ -19,7 +21,7 @@ export default function Schedule() {
                 setSportSchedule(cricket_schedule);
                 break;
             case "Volleyball":
-                setSportSchedule(cricket_schedule);
+                setSportSchedule(volleyball_schedule);
                 break;
             case "Throwball":
                 setSportSchedule(cricket_schedule);
@@ -28,7 +30,7 @@ export default function Schedule() {
                 setSportSchedule(cricket_schedule);
                 break;
             case "Football":
-                setSportSchedule(cricket_schedule);
+                setSportSchedule(football_schedule);
                 break;
             default:
                 setSportSchedule([]);
