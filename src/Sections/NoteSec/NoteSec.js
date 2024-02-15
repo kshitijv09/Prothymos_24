@@ -11,7 +11,7 @@ const NoteSec = () => {
           alt="avatar"
         />
         <div className="note-card-text-container">
-          <h1 style={{ color: "rgba(255,255,255,0.7)" }}>Director Note</h1>
+          <h1 style={{ color: "rgba(255,255,255,0.7)" }}>Director's Note</h1>
           <p>
           Prothymos 2024 is set to showcase the immense talent and passion of our students.
            This year's event promises to be bigger and better than ever before, 

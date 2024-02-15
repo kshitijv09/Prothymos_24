@@ -7,7 +7,7 @@ const HomeSec2 = () => {
       <div className="home-sec-2-text-container">
         <h1>Leave Everything on the Field!</h1>
         <p>
-        It's not whether you get knocked down; it's whether you get up.
+        It's not whether you get knocked down, It's whether you get up.
         </p>
       </div>
       <img

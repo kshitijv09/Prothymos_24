@@ -9,6 +9,7 @@ import Council from "../../Sections/council/Council"
 import TechTeam from "../../Sections/TechTeam/TechTeam";
 import Footer from "../../Sections/Footer/Footer";
 import Nav from "../../Components/Nav/Nav";
+import PromoVideo from "../../Sections/PromoVideo/PromoVideo";
 
 const Home = () => {
   return (
@@ -21,6 +22,8 @@ const Home = () => {
       <HomeSec3/>
       <hr className="hr-line"  />
       <HomeSec2/>
+      <hr className="hr-line"  />
+      <PromoVideo/>
       <hr className="hr-line" id="director-note" />
       <NoteSec />
       <hr className="hr-line" id="sport-council"/>

@@ -23,12 +23,12 @@ export default function Schedule() {
             case "Volleyball":
                 setSportSchedule(volleyball_schedule);
                 break;
-            case "Throwball":
+           /*  case "Throwball":
                 setSportSchedule(cricket_schedule);
                 break;
             case "Kabaddi":
                 setSportSchedule(cricket_schedule);
-                break;
+                break; */
             case "Football":
                 setSportSchedule(football_schedule);
                 break;

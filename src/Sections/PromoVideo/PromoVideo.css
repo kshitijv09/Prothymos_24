@@ -1,0 +1,15 @@
+.video-container {
+    margin: auto;
+    width: 55%; /* Set width to 100% of container */
+    height: auto; /* Adjust height automatically based on aspect ratio */
+  }
+  
+  .promo-video {
+    width: 100%; /* Set video width to 100% of container */
+    height: auto; /* Adjust video height automatically based on aspect ratio */
+  }
+  @media (max-width:500px) {
+    .video-container{
+        width:95%;
+    }
+  }
