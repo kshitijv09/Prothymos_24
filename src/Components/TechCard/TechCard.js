@@ -15,7 +15,7 @@ const TechCard = () => {
               />
               <div className="text-container">
                 <h1>{value.name}</h1>
-                <h2>Team Lead</h2>
+                <h2>{value.role}</h2>
               </div>
             </div>
           )
