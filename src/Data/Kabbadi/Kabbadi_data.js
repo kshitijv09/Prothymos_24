@@ -1,121 +1,377 @@
 const Kabbadi_data = [
     [
         {
-          name: "Deepak Shukla(C)",
-          price: "--",
-          year: "3rd",
+          "name": "Pradeep",
+          "year": "3rd",
+          "price": "C"
         },
         {
-          name: "Hitanshu(VC)",
-          price: "--",
-          year: "2nd",
+          "name": "RoopSingh",
+          "year": "1st",
+          "price": "5cr"
         },
         {
-          name: "Prasad",
-          price: "1cr",
-          year: "1st",
+          "name": "Ganesh",
+          "year": "2nd",
+          "price": "0.2cr"
         },
-        // Add other players for team 1 here
+        {
+          "name": "Anand Sagar",
+          "year": "1st",
+          "price": "5.5cr"
+        },
+        {
+          "name": "Aditya Lamoria",
+          "year": "1st",
+          "price": "0.9cr"
+        },
+        {
+          "name": "Vinit Kumar",
+          "year": "2nd",
+          "price": "0.2cr"
+        },
+        {
+          "name": "Steven",
+          "year": "1st",
+          "price": "0.2cr"
+        },
+        {
+          "name": "Raj Gopal",
+          "year": "1st",
+          "price": "0.2cr"
+        },
+        {
+          "name": "M.Nishath",
+          "year": "3rd",
+          "price": "0.2cr"
+        },
+        {
+          "name": "Tanish",
+          "year": "1st",
+          "price": "0.4cr"
+        },
+        {
+          "name": "Ram Charan",
+          "year": "3rd",
+          "price": "33cr"
+        }
       ],
     
       // Team 2
       [
         {
-          name: "Rakesh(C)",
-          price: "--",
-          year: "4th",
+          "name": "Santosh",
+          "year": "3rd",
+          "price": "C"
         },
         {
-          name: "Akram(VC)",
-          price: "--",
-          year: "2nd",
+            "name": "Harsha vikhyath",
+            "year": "4th",
+            "price": "3.5cr"
         },
         {
-          name: "Nikhil U",
-          price: "0.2cr",
-          year: "1st",
+            "name": "Vignesh VVS",
+            "year": "3rd",
+            "price": "1cr"
         },
-        // Add other players for team 2 here
-      ],
+        {
+            "name": "Harshvardan",
+            "year": "1st",
+            "price": "3cr"
+        },
+        {
+            "name": "Manoj",
+            "year": "4th",
+            "price": "0.45cr"
+        },
+        {
+            "name": "Tagore",
+            "year": "1st",
+            "price": "0.20cr"
+        },
+        {
+            "name": "Sai Charan",
+            "year": "4th",
+            "price": "1cr"
+        },
+        {
+            "name": "Sravan",
+            "year": "4th",
+            "price": "27cr"
+        },
+        {
+            "name": "Monish",
+            "year": "1st",
+            "price": "3cr"
+        },
+        {
+            "name": "Prince",
+            "year": "3rd",
+            "price": "0.30cr"
+        },
+        {
+            "name": "Harshith",
+            "year": "1st",
+            "price": "9.9cr"
+        },
+        {
+            "name": "Aditya Raj",
+            "year": "1st",
+            "price": "0.70cr"
+        }
+    ],
+    
     
       // Team 3
-      [
+    [   
         {
-          name: "Rahul(C)",
-          price: "--",
-          year: "4th",
+          "name": "Hanok",
+          "year": "3rd",
+          "price": "C"
         },
         {
-          name: "Yatharth(VC)",
-          price: "--",
-          year: "1st",
+          "name": "Vikas",
+          "year": "3rd",
+          "price": "1cr"
         },
         {
-          name: "Lokesh",
-          price: "1.2cr",
-          year: "1st",
+          "name": "Basheer",
+          "year": "3rd",
+          "price": "0.5cr"
         },
-        // Add other players for team 3 here
-      ],
+        {
+          "name": "Vikranth",
+          "year": "1st",
+          "price": "8cr"
+        },
+        {
+          "name": "Grewal",
+          "year": "2nd",
+          "price": "3.5cr"
+        },
+        {
+          "name": "Renganathan",
+          "year": "3rd",
+          "price": "0.2cr"
+        },
+        {
+          "name": "Hayagreev",
+          "year": "4th",
+          "price": "3.5cr"
+        },
+        {
+          "name": "Vaidik",
+          "year": "3rd",
+          "price": "0.4cr"
+        },
+        {
+          "name": "Harsha Vardan",
+          "year": "3rd",
+          "price": "0.2cr"
+        },
+        {
+          "name": "Venh Arya",
+          "year": "2nd",
+          "price": "10.5cr"
+        },
+        {
+          "name": "Kaushik",
+          "year": "1st",
+          "price": "13cr"
+        },
+        {
+          "name": "Rahul Kumar",
+          "year": "3rd",
+          "price": "7cr"
+        }
+    ],
     
       // Team 4
-      [
+    [
         {
-          name: "Vaibhav(C)",
-          price: "--",
-          year: "3rd",
+          "name": "Bhanu Prakash",
+          "year": "3rd",
+          "price": "C"
         },
         {
-          name: "Akash Y(VC)",
-          price: "--",
-          year: "2nd",
+          "name": "Prasad",
+          "year": "2nd",
+          "price": "20cr"
         },
         {
-          name: "Raj Bhadoriya",
-          price: "2.2cr",
-          year: "2nd",
+          "name": "Dhanush",
+          "year": "1st",
+          "price": "0.2cr"
         },
-        // Add other players for team 4 here
-      ],
+        {
+          "name": "Hanumantha Rao",
+          "year": "1st",
+          "price": "0.2cr"
+        },
+        {
+          "name": "Harshith",
+          "year": "2nd",
+          "price": "2cr"
+        },
+        {
+          "name": "Nikhil Upadhyay",
+          "year": "3rd",
+          "price": "0.5cr"
+        },
+        {
+          "name": "Dhanush Sada",
+          "year": "1st",
+          "price": "2.25cr"
+        },
+        {
+          "name": "Chakri",
+          "year": "1st",
+          "price": "0.3cr"
+        },
+        {
+          "name": "Kovid Naidu",
+          "year": "1st",
+          "price": "7.3cr"
+        },
+        {
+          "name": "Mahijith",
+          "year": "1st",
+          "price": "0.2cr"
+        },
+        {
+          "name": "Praval",
+          "year": "2nd",
+          "price": "7.5cr"
+        },
+        {
+          "name": "Charan Tej",
+          "year": "2nd",
+          "price": "10cr"
+        }
+    ],
     
       // Team 5
-      [
+    [
         {
-          name: "Sravan(C)",
-          price: "--",
-          year: "3rd",
+          "name": "Vikas Naik",
+          "year": "2nd",
+          "price": "C"
         },
         {
-          name: "Kshitij(VC)",
-          price: "--",
-          year: "2nd",
+          "name": "Dhanush",
+          "year": "3rd",
+          "price": "11.5cr"
         },
         {
-          name: "S. Goutam",
-          price: "0.6cr",
-          year: "3rd",
+          "name": "Praveen",
+          "year": "3rd",
+          "price": "1.25cr"
         },
-        // Add other players for team 5 here
-      ],
+        {
+          "name": "Rahaath",
+          "year": "2nd",
+          "price": "8.2cr"
+        },
+        {
+          "name": "Ravi Teja",
+          "year": "4th",
+          "price": "3cr"
+        },
+        {
+          "name": "Aryan",
+          "year": "2nd",
+          "price": "0.2cr"
+        },
+        {
+          "name": "Raghav",
+          "year": "2nd",
+          "price": "9cr"
+        },
+        {
+          "name": "Charan",
+          "year": "3rd",
+          "price": "0.4cr"
+        },
+        {
+          "name": "Vivek",
+          "year": "1st",
+          "price": "0.2cr"
+        },
+        {
+          "name": "Teja",
+          "year": "1st",
+          "price": "0.55cr"
+        },
+        {
+          "name": "Mayank Kumar",
+          "year": "1st",
+          "price": "0.25cr"
+        },
+        {
+          "name": "Rashid",
+          "year": "1st",
+          "price": "0.5cr"
+        }
+    ]
+      ,
     
       // Team 6
-      [
+    [
         {
-          name: "Mayank(C)",
-          price: "--",
-          year: "3rd",
+          "name": "Goutham",
+          "year": "3rd",
+          "price": "C"
         },
         {
-          name: "Harsha V(VC)",
-          price: "--",
-          year: "3rd",
+          "name": "Gnyan Sai",
+          "year": "2nd",
+          "price": "0.6cr"
         },
         {
-          name: "Ravi Teja",
-          price: "0.2cr",
-          year: "3rd",
+          "name": "Pavan",
+          "year": "4th",
+          "price": "1.5cr"
         },
-        // Add other players for team 6 here
-      ],
+        {
+          "name": "Vijay",
+          "year": "3rd",
+          "price": "1.5cr"
+        },
+        {
+          "name": "Ganesh",
+          "year": "4th",
+          "price": "0.5cr"
+        },
+        {
+          "name": "Rajanayak",
+          "year": "1st",
+          "price": "5.25cr"
+        },
+        {
+          "name": "Himanshu",
+          "year": "4th",
+          "price": "4.5cr"
+        },
+        {
+          "name": "Rohan",
+          "year": "4th",
+          "price": "4.25cr"
+        },
+        {
+          "name": "Dheeraz",
+          "year": "3rd",
+          "price": "6.5cr"
+        },
+        {
+          "name": "Gnana Kishore",
+          "year": "4th",
+          "price": "15cr"
+        },
+        {
+          "name": "Rahul",
+          "year": "3rd",
+          "price": "7cr"
+        }
+    ],
 ];
 export default Kabbadi_data;
