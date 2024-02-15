@@ -20,7 +20,7 @@ const TechCardData = [
         role: "Core Team",
     },
     {
-        name: "Prakriti & Shashi",
+        name: "Prakarti & Shashi",
         img: core2,
         role: "Core Team",
     },
