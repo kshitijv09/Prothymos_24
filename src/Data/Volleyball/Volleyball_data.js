@@ -1,122 +1,337 @@
 const VolleyBall_data = [
-    [
+      [
         {
-          name: "Deepak Shukla(C)",
-          price: "--",
-          year: "3rd",
+          "name": "Vishesh Nagar (C)",
+          "year": "3rd",
+          "price": "-"
         },
         {
-          name: "Hitanshu(VC)",
-          price: "--",
-          year: "2nd",
+          "name": "Hayagreev (VC)",
+          "year": "4th",
+          "price": "12 Cr"
         },
         {
-          name: "Prasad",
-          price: "1cr",
-          year: "1st",
+          "name": "Manoj Kumar Karumanchi",
+          "year": "4th",
+          "price": "18 Cr"
         },
-        // Add other players for team 1 here
+        {
+          "name": "Sravan Kosaraju",
+          "year": "4th",
+          "price": "8 Cr"
+        },
+        {
+          "name": "Aswajith K K",
+          "year": "3rd",
+          "price": "1 Cr"
+        },
+        {
+          "name": "Hitanshu Kaushik",
+          "year": "3rd",
+          "price": "0.2 Cr"
+        },
+        {
+          "name": "Vivek Potluri",
+          "year": "1st",
+          "price": "0.2 Cr"
+        },
+        {
+          "name": "Ankit Das",
+          "year": "1st",
+          "price": "0.2 Cr"
+        },
+        {
+          "name": "Mohammad Rashid",
+          "year": "1st",
+          "price": "0.2 Cr"
+        },
+        {
+          "name": "Atharva Kanade",
+          "year": "1st",
+          "price": "0.2 Cr"
+        }
       ],
     
       // Team 2
       [
         {
-          name: "Rakesh(C)",
-          price: "--",
-          year: "4th",
+            "name": "Prince (C)",
+            "year": "3rd",
+            "price": "-"
         },
         {
-          name: "Akram(VC)",
-          price: "--",
-          year: "2nd",
+            "name": "Anand Sagar",
+            "year": "1st",
+            "price": "0.4 Cr"
         },
         {
-          name: "Nikhil U",
-          price: "0.2cr",
-          year: "1st",
+            "name": "Charan",
+            "year": "3rd",
+            "price": "0.2 Cr"
         },
-        // Add other players for team 2 here
-      ],
+        {
+            "name": "Ram Charan",
+            "year": "3rd",
+            "price": "3 Cr"
+        },
+        {
+            "name": "Hanok",
+            "year": "3rd",
+            "price": "12 Cr"
+        },
+        {
+            "name": "Vikas",
+            "year": "3rd",
+            "price": "0.2 Cr"
+        },
+        {
+            "name": "Rajanaik",
+            "year": "1st",
+            "price": "0.2 Cr"
+        },
+        {
+            "name": "Himanshu",
+            "year": "4th",
+            "price": "26 Cr"
+        },
+        {
+            "name": "Rohan",
+            "year": "4th",
+            "price": "1.8 Cr"
+        },
+        {
+            "name": "Vijay",
+            "year": "4th",
+            "price": "0.2 Cr"
+        },
+        {
+            "name": "Gautham",
+            "year": "4th",
+            "price": "0.2 Cr"
+        },
+        {
+            "name": "Varun",
+            "year": "4th",
+            "price": "2.5 Cr"
+        },
+        {
+            "name": "Ganesh",
+            "year": "4th",
+            "price": "3 Cr"
+        }
+    ],
     
       // Team 3
-      [
+    [
         {
-          name: "Rahul(C)",
-          price: "--",
-          year: "4th",
+          "name": "Ramveer (C)",
+          "year": "2nd",
+          "price": "-"
         },
         {
-          name: "Yatharth(VC)",
-          price: "--",
-          year: "1st",
+          "name": "Prince Grewal",
+          "year": "2nd",
+          "price": "1.2 Cr"
         },
         {
-          name: "Lokesh",
-          price: "1.2cr",
-          year: "1st",
+          "name": "Chakri",
+          "year": "1st",
+          "price": "1.5 Cr"
         },
-        // Add other players for team 3 here
-      ],
+        {
+          "name": "Parikshit Rana",
+          "year": "2nd",
+          "price": "0.2 Cr"
+        },
+        {
+          "name": "Venh Arya",
+          "year": "2nd",
+          "price": "10 Cr"
+        },
+        {
+          "name": "Nakshatra",
+          "year": "2nd",
+          "price": "0.3 Cr"
+        },
+        {
+          "name": "Santhosh",
+          "year": "3rd",
+          "price": "1.4 Cr"
+        },
+        {
+          "name": "Anil Kumar K",
+          "year": "2nd",
+          "price": "5.5 Cr"
+        },
+        {
+          "name": "Raahat",
+          "year": "2nd",
+          "price": "1.55 Cr"
+        },
+        {
+          "name": "V Pavan Kumar",
+          "year": "4th",
+          "price": "0.8 Cr"
+        },
+        {
+          "name": "Vikash Raigar",
+          "year": "2nd",
+          "price": "0.2 Cr"
+        }
+    ],
     
       // Team 4
-      [
+    [
         {
-          name: "Vaibhav(C)",
-          price: "--",
-          year: "3rd",
+          "name": "Phanindra (C)",
+          "year": "2nd",
+          "price": "-"
         },
         {
-          name: "Akash Y(VC)",
-          price: "--",
-          year: "2nd",
+          "name": "Harshavardhan",
+          "year": "1st",
+          "price": "1.5 Cr"
         },
         {
-          name: "Raj Bhadoriya",
-          price: "2.2cr",
-          year: "2nd",
+          "name": "Maloth Nishanth",
+          "year": "3rd",
+          "price": "0.2 Cr"
         },
-        // Add other players for team 4 here
-      ],
+        {
+          "name": "Harsha Vikhyath",
+          "year": "4th",
+          "price": "20 Cr"
+        },
+        {
+          "name": "Teja",
+          "year": "1st",
+          "price": "10 Cr"
+        },
+        {
+          "name": "Rishabh Lalwani",
+          "year": "3rd",
+          "price": "0.3 Cr"
+        },
+        {
+          "name": "Gaurav Saini",
+          "year": "2nd",
+          "price": "4.5 Cr"
+        },
+        {
+          "name": "C Vishnu Vardhan",
+          "year": "4th",
+          "price": "0.8 Cr"
+        },
+        {
+          "name": "Kartikh Goranthla",
+          "year": "4th",
+          "price": "0.2 Cr"
+        },
+        {
+          "name": "G Krushna Charan",
+          "year": "1st",
+          "price": "10.5 Cr"
+        },
+        {
+          "name": "Vivek Kumar",
+          "year": "2nd",
+          "price": "0.4 Cr"
+        },
+        {
+          "name": "Asrij",
+          "year": "2nd",
+          "price": "0.2 Cr"
+        }
+    ],
     
       // Team 5
-      [
+    [
         {
-          name: "Sravan(C)",
-          price: "--",
-          year: "3rd",
+        "name": "Saradhi (C)",
+        "year": "2nd",
+        "price": "-"
         },
         {
-          name: "Kshitij(VC)",
-          price: "--",
-          year: "2nd",
+            "name": "Sai Charan",
+            "year": "4th",
+            "price": "18Cr"
         },
         {
-          name: "S. Goutam",
-          price: "0.6cr",
-          year: "3rd",
+            "name": "Tagore",
+            "year": "2nd",
+            "price": "8Cr"
         },
-        // Add other players for team 5 here
-      ],
+        {
+            "name": "Gnyan Sai",
+            "year": "2nd",
+            "price": "10Cr"
+        },
+        {
+            "name": "Raghav Pandey",
+            "year": "2nd",
+            "price": "12Cr"
+        },
+        {
+            "name": "Steven",
+            "year": "1st",
+            "price": "0.2Cr"
+        },
+        {
+            "name": "Dhanush",
+            "year": "1st",
+            "price": "0.7Cr"
+        }
+    ],
     
       // Team 6
-      [
+    [
         {
-          name: "Mayank(C)",
-          price: "--",
-          year: "3rd",
+          "name": "Shubham (C)",
+          "year": "3rd",
+          "price": "-"
         },
         {
-          name: "Harsha V(VC)",
-          price: "--",
-          year: "3rd",
+          "name": "Basheer (VC)",
+          "year": "3rd",
+          "price": "15 Cr"
         },
         {
-          name: "Ravi Teja",
-          price: "0.2cr",
-          year: "3rd",
+          "name": "Kshitij",
+          "year": "3rd",
+          "price": "16 Cr"
         },
-        // Add other players for team 6 here
-      ],
+        {
+          "name": "Koushik",
+          "year": "1st",
+          "price": "13 Cr"
+        },
+        {
+          "name": "Praval",
+          "year": "2nd",
+          "price": "3.5 Cr"
+        },
+        {
+          "name": "Harshith",
+          "year": "1st",
+          "price": "0.2 Cr"
+        },
+        {
+          "name": "Sachin",
+          "year": "1st",
+          "price": "0.2 Cr"
+        },
+        {
+          "name": "Sampath",
+          "year": "2nd",
+          "price": "0.2 Cr"
+        },
+        {
+          "name": "Kamal Raj",
+          "year": "4th",
+          "price": "0.2 Cr"
+        }
+    ]
+      
   
     ];
   export default VolleyBall_data;

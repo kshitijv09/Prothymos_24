@@ -1,15 +1,16 @@
-// import Anish from "../../Assets/anish.jpeg"
+import Himanshu_Reddy from "../../Assets/Himanshu_Reddy.jpg"
+import Rohit_Bellur from "../../Assets/Rohit_Bellur.jpg"
 
 const CouncilCardData = [
     {
         name: "Himanshu Reddy",
         position:"Sports Secretary",
-        img: "",
+        img: Himanshu_Reddy,
     },
     {
         name: "Rohit S Bellur",
         position:"Vice Sports Secretary",
-        // img: Anish,
+        img: Rohit_Bellur,
     },
 
 ]

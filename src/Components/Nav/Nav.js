@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Nav.css";
-import Logo from "../../Assets/prothymos.jpg";
+import Logo from "../../Assets/prothymos.png";
 import { Link } from "react-router-dom";
 const Navbar = ({ about, org }) => {
   const [active, setActive] = useState(false);

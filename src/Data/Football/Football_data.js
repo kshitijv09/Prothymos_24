@@ -1,373 +1,299 @@
 const Football_data = [
   [
     {
-      name: "Vaidik(C)",
-      price: "--",
-      year: "--",
+      "name": "Raghu",
+      "year": "1st",
+      "price": "6Cr"
     },
     {
-      name: "Pawan Kalyan",
-      price: "3cr",
-      year: "--",
+      "name": "Ramcharan",
+      "year": "3rd",
+      "price": "10Cr"
     },
     {
-      name: "Rohit s bellur",
-      price: "35cr",
-      year: "--",
+      "name": "Aswajith",
+      "year": "3rd",
+      "price": "44Cr"
     },
     {
-      name: "Chintan Jain",
-      price: "2.5cr",
-      year: "--",
+      "name": "Yatharth",
+      "year": "2nd",
+      "price": "13Cr"
     },
     {
-      name: "Harshit Gupta",
-      price: "4.5cr",
-      year: "--",
+      "name": "Gnana Sai",
+      "year": "2nd",
+      "price": "1.25Cr"
     },
     {
-      name: "Mulik Yash",
-      price: "3cr",
-      year: "--",
+      "name": "Aman",
+      "year": "3rd",
+      "price": "0.8Cr"
     },
     {
-      name: "Praval Raghuvanshi",
-      price: "2cr",
-      year: "--",
+      "name": "Atharva",
+      "year": "3rd",
+      "price": "0.5Cr"
     },
     {
-      name: "Pranshu goyal",
-      price: "6cr",
-      year: "--",
+      "name": "Ekansh Sharma",
+      "year": "1st",
+      "price": "9Cr"
     },
     {
-      name: "Krishna rai",
-      price: "2.5cr",
-      year: "--",
+      "name": "Himanshu",
+      "year": "4th",
+      "price": "3.5Cr"
     },
     {
-      name: "Kshitij Verma",
-      price: "7.5cr",
-      year: "--",
-    },
-    {
-      name: "Yashdeep Rao",
-      price: "13cr",
-      year: "--",
-    },
+      "name": "Harsha",
+      "year": "4th",
+      "price": "11Cr"
+    }
   ],
+  
 
   // ____________________ ____________________ ____________________ ____________________ ____________________ ____________________
   // team2
   [
     {
-      name: "Sathwik Mishra(C)",
-      price: "--",
-      year: "--",
+      "name": "Krishna Kant",
+      "year": "1st",
+      "price": "2.25Cr"
     },
     {
-      name: "Deep Patel",
-      price: "25cr",
-      year: "--",
+      "name": "Praval",
+      "year": "2nd",
+      "price": "17Cr"
     },
     {
-      name: "Gnana Kishore Naidu",
-      price: "5cr",
-      year: "--",
+      "name": "Narender",
+      "year": "2nd",
+      "price": "3Cr"
     },
     {
-      name: "Balaji Rai",
-      price: "6cr",
-      year: "--",
+      "name": "Gyaan Sai",
+      "year": "2nd",
+      "price": "0.5Cr"
     },
     {
-      name: "Rahul",
-      price: "4.5cr",
-      year: "--",
+      "name": "Raahath",
+      "year": "2nd",
+      "price": "38Cr"
     },
     {
-      name: "Pradeep",
-      price: "1.5cr",
-      year: "--",
+      "name": "Harshit",
+      "year": "1st",
+      "price": "1Cr"
     },
     {
-      name: "Annunay reddy",
-      price: "15cr",
-      year: "--",
+      "name": "Prince",
+      "year": "3rd",
+      "price": "14Cr"
     },
     {
-      name: "Himashu",
-      price: "6cr",
-      year: "--",
+      "name": "Vignesh",
+      "year": "M.Tech",
+      "price": "6Cr"
     },
     {
-      name: "Naresh Reddy",
-      price: "6.5cr",
-      year: "--",
+      "name": "Lalwani",
+      "year": "3rd",
+      "price": "5Cr"
     },
     {
-      name: "Pranjal Bisen",
-      price: "8.5cr",
-      year: "--",
-    },
-    {
-      name: "Deepak shukla",
-      price: "2cr",
-      year: "--",
-    },
+      "name": "Hayagreev",
+      "year": "4th",
+      "price": "12Cr"
+    }
   ],
 
   // ____________________________________________________________________________________________________________
   // team 3
   [
-  {
-    name: "Pratham Agarwal(C)",
-    price: "--",
-    year: "--",
-  },
-  {
-    name: "Karthikeyan", 
-    price: "0.5cr",
-    year: "--",
-  },
-  {
-    name: "Nikhil Chaurase",
-    price: "25cr",
-    year: "--",
-  },
-  {
-    name: "Choudhary Rudra",
-    price: "3.5cr",
-    year: "--",
-  },
-  {
-    name: "Ackerman",
-    price: "29.5cr",
-    year: "--",
-  },
-  {
-    name: "Priyanshu",
-    price: "2.5cr",
-    year: "--",
-  },
-  {
-    name: "Hanok",
-    price: "2cr",
-    year: "--",
-  },
-  {
-    name: "Aryan Patel",
-    price: "4.5cr",
-    year: "--",
-  },
-  {
-    name: "Vinit kumar",
-    price: "0.5cr",
-    year: "1st",
-  },
-  {
-    name: "Vikas Meka",
-    price: "0.5cr",
-    year: "--",
-  },
-  {
-    name: "Aasrith Reddy",
-    price: "4.5cr",
-    year: "--",
-  },
-  {
-    name: "Deepesh Talekar",
-    price: "7cr",
-    year: "--",
-  },
+    {
+      "name": "Rajgopal",
+      "year": "1st",
+      "price": "4.5Cr"
+    },
+    {
+      "name": "Jaswinder",
+      "year": "2nd",
+      "price": "15Cr"
+    },
+    {
+      "name": "Raghav",
+      "year": "2nd",
+      "price": "14Cr"
+    },
+    {
+      "name": "Akash Yadav",
+      "year": "3rd",
+      "price": "0.7Cr"
+    },
+    {
+      "name": "Sachin",
+      "year": "1st",
+      "price": "0.7Cr"
+    },
+    {
+      "name": "Aditya",
+      "year": "4th",
+      "price": "26Cr"
+    },
+    {
+      "name": "Satvik",
+      "year": "4th",
+      "price": "33Cr"
+    },
+    {
+      "name": "Nikhil",
+      "year": "3rd",
+      "price": "0.5Cr"
+    },
+    {
+      "name": "Bharat",
+      "year": "2nd",
+      "price": "4Cr"
+    }
   ],
   // ____________________________________________________________________________________________________________
   // team 4
   [
-  {
-    name: "Kamal Raj(C)",
-    price: "--",
-    year: "--",
-  },
-  {
-    name: "Ram Charan", 
-    price: "8.5cr",
-    year: "--",
-  },
-  {
-    name: "Bhadraksh Bhargava",
-    price: "7cr",
-    year: "--",
-  },
-  {
-    name: "Avinash Singh",
-    price: "6cr",
-    year: "--",
-  },
-  {
-    name: "Emandi Akash",
-    price: "16cr",
-    year: "--",
-  },
-  {
-    name: "Vamsi Krishna",
-    price: "0.5cr",
-    year: "--",
-  },
-  {
-    name: "Raghav Kumar",
-    price: "4.5cr",
-    year: "--",
-  },
-  {
-    name: "Krishna Laddha",
-    price: "18.5cr",
-    year: "--",
-  },
-  {
-    name: "Anil Kumar k",
-    price: "0.5cr",
-    year: "1st",
-  },
-  {
-    name: "Raj Bhadoriya",
-    price: "0.5cr",
-    year: "--",
-  },
-  {
-    name: "Vineeth Kumar",
-    price: "4.5cr",
-    year: "--",
-  },
-  {
-    name: "N Nagamalishwar",
-    price: "7cr",
-    year: "--",
-  },
-  {
-    name: "Mayank",
-    price: "12cr",
-    year: "--",
-  },
-],
+    {
+      "name": "Kamal Raj",
+      "year": "4th",
+      "price": "30Cr"
+    },
+    {
+      "name": "Vinit",
+      "year": "1st",
+      "price": "1Cr"
+    },
+    {
+      "name": "Santosh",
+      "year": "2nd",
+      "price": "0.6Cr"
+    },
+    {
+      "name": "Bellur",
+      "year": "3rd",
+      "price": "46Cr"
+    },
+    {
+      "name": "Rashid",
+      "year": "4th",
+      "price": "0.5Cr"
+    },
+    {
+      "name": "Sravan",
+      "year": "4th",
+      "price": "10Cr"
+    },
+    {
+      "name": "Deepak",
+      "year": "4th",
+      "price": "0.7Cr"
+    },
+    {
+      "name": "Sai Charan",
+      "year": "4th",
+      "price": "0.5Cr"
+    },
+    {
+      "name": "Rahul Kumar",
+      "year": "3rd",
+      "price": "0.2Cr"
+    }
+  ],
   // ____________________________________________________________________________________________________________
   // team 5
   [
-  {
-    name: "Harsh Agarwal(C)",
-    price: "--",
-    year: "--",
-  },
-  {
-    name: "Shubham Joshi", 
-    price: "8.5cr",
-    year: "--",
-  },
-  {
-    name: "Venh Arya",
-    price: "11.5cr",
-    year: "--",
-  },
-  {
-    name: "Yatharth Tiwari",
-    price: "4cr",
-    year: "--",
-  },
-  {
-    name: "Raahath Shaikh",
-    price: "20cr",
-    year: "--",
-  },
-  {
-    name: "Rishank GOyal",
-    price: "5.5cr",
-    year: "--",
-  },
-  {
-    name: "Nakshatra Dagwar",
-    price: "2cr",
-    year: "--",
-  },
-  {
-    name: "Aswajith kk",
-    price: "22cr",
-    year: "--",
-  },
-  {
-    name: "Sarthak kumar",
-    price: "0.5cr",
-    year: "1st",
-  },
-  {
-    name: "G. Karthik",
-    price: "0.5cr",
-    year: "--",
-  },
-  {
-    name: "Nishay Kumar",
-    price: "0.5cr",
-    year: "--",
-  },
+    {
+      "name": "Imraan",
+      "year": "3rd",
+      "price": "3.25Cr"
+    },
+    {
+      "name": "Mayur",
+      "year": "1st",
+      "price": "28Cr"
+    },
+    {
+      "name": "Uttam",
+      "year": "1st",
+      "price": "5Cr"
+    },
+    {
+      "name": "Pratham",
+      "year": "4th",
+      "price": "9Cr"
+    },
+    {
+      "name": "Jaggu",
+      "year": "4th",
+      "price": "20Cr"
+    },
+    {
+      "name": "Krishna",
+      "year": "3rd",
+      "price": "32Cr"
+    },
+    {
+      "name": "Vishnu",
+      "year": "4th",
+      "price": "0.5Cr"
+    },
+    {
+      "name": "Tanuj",
+      "year": "2nd",
+      "price": "0.5Cr"
+    }
   ],
   // ____________________________________________________________________________________________________________
   // team 6
   [
-  {
-    name: "Rama Chandra Varma(C)",
-    price: "--",
-    year: "--",
-  },
-  {
-    name: "Siddharth Sahu", 
-    price: "15cr",
-    year: "--",
-  },
-  {
-    name: "Mithul Seth",
-    price: "9.5cr",
-    year: "--",
-  },
-  {
-    name: "Naveen Reddy",
-    price: "2.5cr",
-    year: "--",
-  },
-  {
-    name: "S Rakesh Naik",
-    price: "7cr",
-    year: "--",
-  },
-  {
-    name: "Sashidhar reddy",
-    price: "3.5cr",
-    year: "--",
-  },
-  {
-    name: "Dharneesh",
-    price: "2cr",
-    year: "--",
-  },
-  {
-    name: "Navneet",
-    price: "30cr",
-    year: "--",
-  },
-  {
-    name: "Santosh",
-    price: "1.5cr",
-    year: "1st",
-  },
-  {
-    name: "Venu",
-    price: "0.5cr",
-    year: "--",
-  },
-  {
-    name: "Anish Akode",
-    price: "7.5cr",
-    year: "--",
-  },
-]
+    {
+      "name": "Vishesh",
+      "year": "3rd",
+      "price": "8.5Cr"
+    },
+    {
+      "name": "Nakshatra",
+      "year": "2nd",
+      "price": "2.25Cr"
+    },
+    {
+      "name": "Ajay",
+      "year": "2nd",
+      "price": "17Cr"
+    },
+    {
+      "name": "Kshitiz",
+      "year": "3rd",
+      "price": "18Cr"
+    },
+    {
+      "name": "Hanok",
+      "year": "3rd",
+      "price": "8Cr"
+    },
+    {
+      "name": "Tanish",
+      "year": "1st",
+      "price": "24Cr"
+    },
+    {
+      "name": "Rudra",
+      "year": "1st",
+      "price": "10Cr"
+    },
+    {
+      "name": "Bhanu",
+      "year": "2nd",
+      "price": "0.6Cr"
+    }
+  ],
 ];
 
 
