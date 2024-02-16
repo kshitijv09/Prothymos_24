@@ -5,7 +5,7 @@ const CouncilCardData = [
     {
         name: "Himanshu Reddy",
         position:"Sports Secretary",
-        img: Hemanshu_Reddy,
+        img: Himanshu_Reddy,
     },
     {
         name: "Rohit S Bellur",
