@@ -3,7 +3,7 @@ import Rohit_Bellur from "../../Assets/Rohit_Bellur.jpg"
 
 const CouncilCardData = [
     {
-        name: "Hemanshu Reddy",
+        name: "Himanshu Reddy",
         position:"Sports Secretary",
         img: Hemanshu_Reddy,
     },
