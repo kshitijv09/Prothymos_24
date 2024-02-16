@@ -3,9 +3,9 @@ import Rohit_Bellur from "../../Assets/Rohit_Bellur.jpg"
 
 const CouncilCardData = [
     {
-        name: "Himanshu Reddy",
+        name: "Hemanshu Reddy",
         position:"Sports Secretary",
-        img: Himanshu_Reddy,
+        img: Hemanshu_Reddy,
     },
     {
         name: "Rohit S Bellur",
