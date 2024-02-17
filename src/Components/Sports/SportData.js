@@ -17,7 +17,7 @@
 //----------------------------------------------------------//
 import Football from "../../Assets/football_new.jpg";
 import Kabaddi from "../../Assets/kabbadi_new.png";
-import Volleyball from "../../Assets/volleyball2_new.jpg";
+import Volleyball from "../../Assets/volleyball_new.jpg";
 import Field from "../../Assets/track_new.jpg";
 import cricket from "../../Assets/cricket_new.jpg";
 import TT from "../../Assets/tableTennis_new.jpg";
