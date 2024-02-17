@@ -1,0 +1,40 @@
+.sport-result-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.outer-result-cont{
+    padding-top: 80px;
+}
+.result-title{
+    color: #c8f2f2;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+}
+.day-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+
+
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #c8f2f2;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 626px)
+{
+.day-heading {
+    
+    margin:30px;
+}
+}
