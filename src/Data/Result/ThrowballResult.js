@@ -15,7 +15,7 @@ const throwball_result_1 = [
         match_no:3,
         team1: "Team Smashers",
         team2: "Team CourtBreakers",
-        result: "Match Yet To Be Held"
+        result: "Team CourtBreakers won"
       },
     
   ];
