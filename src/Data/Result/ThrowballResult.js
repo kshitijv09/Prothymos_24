@@ -11,16 +11,16 @@ const throwball_result_1 = [
       team2: "Team The Smashers",
       result: "Team Seven Stars won"
     },
+    
+    
+  ];
+  const throwball_result_2 = [
     {
-        match_no:3,
+        match_no:1,
         team1: "Team Smashers",
         team2: "Team CourtBreakers",
         result: "Team CourtBreakers won"
       },
-    
-  ];
-  const throwball_result_2 = [
-   
     
   ];
   const throwball_result_3 = [
