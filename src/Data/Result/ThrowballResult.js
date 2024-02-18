@@ -1,21 +1,21 @@
 const throwball_result_1 = [
     {
       match_no:1,
-      team1: "Team A",
-      team2: "Team d",
-      result: "Teamfjf kfts"
+      team1: "Team Seven Stars",
+      team2: "Team Courtbreakers",
+      result: "Team Seven Stars won"
     },
     {
         match_no:2,
-      team1: "Team C",
-      team2: "Team D",
-      result: "Match abandoned due to rain"
+      team1: "Team Seven Stars",
+      team2: "Team The Smashers",
+      result: "Team Seven Stars won"
     },
     {
         match_no:3,
-        team1: "Team C",
-        team2: "Team D",
-        result: "Match abandoned due to rain"
+        team1: "Team Smashers",
+        team2: "Team CourtBreakers",
+        result: "Match Yet To Be Held"
       },
     
   ];
